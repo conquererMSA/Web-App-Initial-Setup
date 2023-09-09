@@ -1,6 +1,7 @@
 import { Request, Response } from 'express'
 import userService from './users.service'
 
+// controller controll the request and response system
 const createUserController = async (req: Request, res: Response) => {
   const { user } = req.body
   try {
